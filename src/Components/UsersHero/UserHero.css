@@ -1,0 +1,114 @@
+
+
+  .displayUser{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .display{
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .addUser{
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .userInput{
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .userInputBtn{
+    width:100px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  h3{
+    font-style: italic;
+  }
+
+  @media screen and (max-width:1280px) {
+    
+  .addUser{
+    width: 70%;
+  }
+  }
+
+  @media screen and (max-width:1024px){
+    .displayUser{
+        width: 100%;
+    }
+
+    .addUser{
+        width: 80%;
+      }
+  }
+
+  @media screen and (max-width:920px){
+    .displayUser{
+        width: 70%;
+    }
+
+    .display{
+        width: 800px;
+        height: 200px;
+        background: green;
+    }
+
+    
+    .addUser{
+        width: 100%;
+      }
+  }
+
+  @media screen and (max-width:600px){
+    .displayUser{
+        width: 80%;
+        margin-top: 100px;
+    }
+
+    .addUser{
+    
+        margin-top: 10px;
+        margin-bottom: 20px;
+       
+      }
+  }
+
+  @media screen and (max-width:450px) {
+    .displayUser{
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .display{
+        width: 100%;
+    }
+  }
+
+
+  /* @media screen and (max-width:){
+    
+  } */
